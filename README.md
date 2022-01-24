@@ -7,4 +7,13 @@ In this project, we used R. to analyze production data for AutoRUs's newest vehi
 3. R-squared is known to increase that more varaibles are moved or placed in the regression. However, when we adjust the r-squard agasint the increase, penalties are added for the predicotrs in the model, thus creating a more accurate predictions on the effectiveness of the linear model. The adjusted R-square of 0.6825 shows us that this model can accurately predict the MPG of the vehicle protoype in a reltively well manner.
 
 ## Summary of Suspension Coil
-The varience totals found for the data on suspension coils shows that the manufacturing data reachs the limitation at the adequate level of 100 lbs per square inch. When seperated into the three Manufacturting Lots however, we see that lot three has a much higher varience at  
+The varience totals found for the data on suspension coils shows that the manufacturing data reachs the limitation at the adequate level of 100 lbs per square inch. When seperated into the three Manufacturting Lots however, we see that lot three has a much higher varience at 170.2861224. These lots were chosen at random in the data set, but there is a posiibilty that Lot 3 is not meeting requirments for their susoension coil requirments.
+## Sample T-test on Entire Lot
+When running our t-test for the entire Lot as a whole we find a signifigance level of 0.05. This means we cannot reject the null hypothesis since we see a p-value of 1.
+## Smaller Lot T-test
+### Lot 1 
+With a p-value of 1, and a siginficance level of 1, we fail to reject the null hypothesis.
+### Lot 2
+With a p-value of 0.6072, and a signifigance 0.05 we fail to reject the null hypothesis.
+### Lot 3
+With a p-value of 
