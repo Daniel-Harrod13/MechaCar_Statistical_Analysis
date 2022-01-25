@@ -16,4 +16,4 @@ With a p-value of 1, and a siginficance level of 1, we fail to reject the null h
 ### Lot 2
 With a p-value of 0.6072, and a signifigance 0.05 we fail to reject the null hypothesis.
 ### Lot 3
-With a p-value of 
+With a p-value of 0.04168 and a significance of 0.05, we can reject the null hypothesis. We also see that the mean of this sample is srikingly low. It also does not show the predicted population mean.
